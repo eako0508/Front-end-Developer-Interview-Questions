@@ -28,12 +28,33 @@ This file contains a number of front-end interview questions that can be used wh
 * What excites or interests you about coding?
 * What is a recent technical challenge you experienced and how did you solve it?
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
+
+  User Interface, Security, Performance, Search Engin Optimization, Maintainability, Technology.
+  
 * Talk about your preferred development environment.
+
+  Visual Studio Code
+
 * Which version control systems are you familiar with?
+
+  Git
+
 * Can you describe your workflow when you create a web page?
+
+  Think about the purpose of the web page -> think about the features that needs to be included -> draw the layout -> work on features -> add css
+
 * If you have 5 different stylesheets, how would you best integrate them into the site?
+
+  Minify them or add them in one css.
+
 * Can you describe the difference between progressive enhancement and graceful degradation?
+
+  Graceful degradation provides backward compatibility with the out-dated browsers to prevent catastrophic failure while progressive enhancement increases user's experiance with more functionality.
+
 * How would you optimize a website's assets/resources?
+
+
+
 * How many resources will a browser download from a given domain at a time?
   * What are the exceptions?
 * Name 3 ways to decrease page load (perceived or actual load time).
@@ -49,24 +70,56 @@ This file contains a number of front-end interview questions that can be used wh
 #### HTML Questions:
 
 * What does a `doctype` do?
+
+  It helps the browser to recognize the document type so it can load the page in proper way.
+  
 * What's the difference between full standards mode, almost standards mode and quirks mode?
+
+  Most of the consumers nowadays are using recent browsers, such as google Chrome or Firefox, and those browsers are using standard mode. Quirks mode allows the older browsers to render the page with backward compatiblity.
+  
 * What's the difference between HTML and XHTML?
+
+  Not entirely true, but it's easier to think that XHTML is strict version of HTML 
+  
 * Are there any problems with serving pages as `application/xhtml+xml`?
+
+  Older version of IE would show download dialog instead of rendering page properly.
+  
 * How do you serve a page with content in multiple languages?
+
+  One may make a link to different language and make another page with said language.
+  
 * What kind of things must you be wary of when design or developing for multilingual sites?
+  
 * What are `data-` attributes good for?
+
+  It allows to store extra information on standard HTML.
+  
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+
 * Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
+
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
+
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+
 * What is progressive rendering?
+
 * Why you would use a `srcset` attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute.
+
 * Have you used different HTML templating languages before?
+
 
 #### CSS Questions:
 
 * What is the difference between classes and IDs in CSS?
+
+ ID is for a single target whereas classes are for group of targets.
+ 
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+
+  Resetting removes all css styling and normalizing preserves useful defaults that can be modulated and fixes bugs.
+
 * Describe Floats and how they work.
 * Describe z-index and how stacking context is formed.
 * Describe BFC(Block Formatting Context) and how it works.
