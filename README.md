@@ -124,15 +124,36 @@ This file contains a number of front-end interview questions that can be used wh
 * Describe z-index and how stacking context is formed.
 * Describe BFC(Block Formatting Context) and how it works.
 * What are the various clearing techniques and which is appropriate for what context?
+
+  div with empty content and float:clear
+
 * Explain CSS sprites, and how you would implement them on a page or site.
+
+  CSS sprites is the collection of images for various useage and the elements in HTML may use them with the size of the image and the offset.
+
 * What are your favourite image replacement techniques and which do you use when?
+
+
+
 * How would you approach fixing browser-specific styling issues?
 * How do you serve your pages for feature-constrained browsers?
   * What techniques/processes do you use?
 * What are the different ways to visually hide content (and make it available only for screen readers)?
+
+  give the attribute hide() using jquery
+
 * Have you ever used a grid system, and if so, what do you prefer?
+
+  bootstrap grid system that divides the screeen with columns depending on the resolution of the screen.
+
 * Have you used or implemented media queries or mobile specific layouts/CSS?
+
+  960px, 640px and 320px
+
 * Are you familiar with styling SVG?
+
+  scalable vector graphics - XML
+
 * How do you optimize your webpages for print?
 * What are some of the "gotchas" for writing efficient CSS?
 * What are the advantages/disadvantages of using CSS preprocessors?
@@ -140,8 +161,18 @@ This file contains a number of front-end interview questions that can be used wh
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
 * Describe pseudo-elements and discuss what they are used for.
+
+  pseudo-elements are keywords after a selector to select a certain part of the element.
+
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+
+  content, padding, border, margin
+
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
+
+  Width is the total width of the box instead of growing bigger by assigning marin and border.
+  It is more intuitive than default settings: content-box.
+
 * List as many values for the display property that you can remember.
 * What's the difference between inline and inline-block?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
